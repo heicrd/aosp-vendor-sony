@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
 	Signedrompatch_v20 \
 	Signedrompatch_v21 \
 	Signedrompatch_v24 \
+	Signedrompatch_v30 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \

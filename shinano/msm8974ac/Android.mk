@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter shinano2, $(PRODUCT_PLATFORM)),)
+ifeq ($(PRODUCT_PLATFORM),shinano2)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Signedrompatch_v20
 LOCAL_MODULE_OWNER := Sony Mobile
