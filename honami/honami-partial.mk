@@ -13,4 +13,19 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors
+	sensors \
+	touch_module_id_0x45 \
+	touch_module_id_0x48 \
+	touch_module_id_0x49 \
+	touch_module_id_0x4d \
+	touch_module_id_0x4e \
+	touch_module_id_0x4f \
+	touch_module_id_0x50 \
+	touch_module_id_0x51 \
+	touch_module_id_0x57 \
+	touch_module_id_0x59 \
+	touch_module_id_0x5a \
+	touch_module_id_0x5b \
+	touch_module_id_0x5c \
+	touch_module_id_0x5e \
+	touch_module_id_0x5f

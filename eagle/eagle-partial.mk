@@ -14,39 +14,6 @@
 
 PRODUCT_PACKAGES += \
 	btnvtool \
-	Signedrompatch_v20 \
-	Signedrompatch_v21 \
-	Signedrompatch_v24 \
-	cmnlib_b00 \
-	cmnlib_b01 \
-	cmnlib_b02 \
-	cmnlib_b03 \
-	cmnlib_mdt \
-	cpp_firmware_v1_1_1 \
-	cpp_firmware_v1_1_6 \
-	cpp_firmware_v1_2_0 \
-	tzhdcp_b00 \
-	tzhdcp_b01 \
-	tzhdcp_b02 \
-	tzhdcp_b03 \
-	tzhdcp_mdt \
-	tzlibasb_b00 \
-	tzlibasb_b01 \
-	tzlibasb_b02 \
-	tzlibasb_b03 \
-	tzlibasb_mdt \
-	tzsuntory_b00 \
-	tzsuntory_b01 \
-	tzsuntory_b02 \
-	tzsuntory_b03 \
-	tzsuntory_mdt \
-	venus_b00 \
-	venus_b01 \
-	venus_b02 \
-	venus_b03 \
-	venus_b04 \
-	venus_mbn \
-	venus_mdt \
 	sensors.msm8226 \
 	libyasalgo \
 	libpn547_fw

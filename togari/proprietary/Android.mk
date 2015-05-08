@@ -24,4 +24,74 @@ LOCAL_MODULE_SUFFIX := .qcom
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_chip_id_0x74_config_id_0x0011
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_chip_id_0x74_config_id_0x0011.bin
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_chip_id_0x74_config_id_0x0460
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_chip_id_0x74_config_id_0x0460.bin
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_chip_id_0x75_config_id_0x0010
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_chip_id_0x75_config_id_0x0010.bin
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_chip_id_0x75_config_id_0x0012
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_chip_id_0x75_config_id_0x0012.bin
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_chip_id_0x75_config_id_0x0013
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_chip_id_0x75_config_id_0x0013.bin
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_module_id_0x43
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_module_id_0x43.img
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .img
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := touch_module_id_0x44
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/touch_module_id_0x44.img
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .img
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
 endif

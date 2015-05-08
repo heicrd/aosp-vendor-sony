@@ -13,4 +13,11 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors
+	sensors \
+	touch_chip_id_0x74_config_id_0x0011 \
+	touch_chip_id_0x74_config_id_0x0460 \
+	touch_chip_id_0x75_config_id_0x0010 \
+	touch_chip_id_0x75_config_id_0x0012 \
+	touch_chip_id_0x75_config_id_0x0013 \
+	touch_module_id_0x43 \
+	touch_module_id_0x44
