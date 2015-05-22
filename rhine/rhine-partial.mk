@@ -48,31 +48,6 @@ PRODUCT_PACKAGES += \
 	mba_b00 \
 	mba_mdt \
 	nfc_test \
-	touch_chip_id_0x74_config_id_0x0011 \
-	touch_chip_id_0x74_config_id_0x0460 \
-	touch_chip_id_0x75_config_id_0x0010 \
-	touch_chip_id_0x75_config_id_0x0012 \
-	touch_chip_id_0x75_config_id_0x0013 \
-	touch_module_id_0x43 \
-	touch_module_id_0x44 \
-	touch_module_id_0x45 \
-	touch_module_id_0x48 \
-	touch_module_id_0x49 \
-	touch_module_id_0x4d \
-	touch_module_id_0x4e \
-	touch_module_id_0x4f \
-	touch_module_id_0x50 \
-	touch_module_id_0x51 \
-	touch_module_id_0x53 \
-	touch_module_id_0x54 \
-	touch_module_id_0x57 \
-	touch_module_id_0x59 \
-	touch_module_id_0x5a \
-	touch_module_id_0x5b \
-	touch_module_id_0x5c \
-	touch_module_id_0x5d \
-	touch_module_id_0x5e \
-	touch_module_id_0x5f \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
