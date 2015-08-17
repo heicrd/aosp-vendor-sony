@@ -16,6 +16,5 @@ PRODUCT_PACKAGES += \
 	TRULY_GFF_FW \
 	VersionInformation \
 	WINTEK_OGS_FW \
-	nfc_test \
-	sensors.msm8226 \
-	libpn547_fw
+	libpn547_fw \
+	sensors.msm8226

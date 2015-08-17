@@ -13,26 +13,11 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	wcnss_service \
-	MTP_Bluetooth_cal \
-	MTP_General_cal \
-	MTP_Global_cal \
-	MTP_Handset_cal \
-	MTP_Hdmi_cal \
-	MTP_Headset_cal \
-	MTP_Speaker_cal \
-	Signedrompatch_v20 \
-	Signedrompatch_v21 \
-	Signedrompatch_v24 \
-	Signedrompatch_v30 \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
-	cpp_firmware_v1_1_1 \
-	cpp_firmware_v1_1_6 \
-	cpp_firmware_v1_2_0 \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
@@ -58,16 +43,12 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
+	hci_qcomm_init \
+	wcnss_service \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
 	keymaster_mdt \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
-	libadiertac \
 	libadsprpc \
-	libaudcal \
-	libaudioalsa \
 	libbtnv

@@ -46,26 +46,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := nfc_test
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/nfc_test.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := sensors.msm8226
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/hw/sensors.msm8226.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libpn547_fw
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/libpn547_fw.so
@@ -73,5 +53,15 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := sensors.msm8226
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/hw/sensors.msm8226.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
 endif

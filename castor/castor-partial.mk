@@ -13,7 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors \
+	Handset_cal \
+	Speaker_cal \
 	touch_module_id_0x60 \
 	touch_module_id_0x61 \
 	fw_bcmdhd \

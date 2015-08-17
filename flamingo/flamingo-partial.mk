@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	btnvtool \
-	sensors \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -60,5 +58,6 @@ PRODUCT_PACKAGES += \
 	widevine_b02 \
 	widevine_b03 \
 	widevine_mdt \
+	btnvtool \
 	libpn547_fw \
 	sensors.msm8226

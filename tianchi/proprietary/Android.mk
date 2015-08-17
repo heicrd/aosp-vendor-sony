@@ -16,16 +16,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq (tianchi, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/sensors.qcom
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .qcom
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/adsp.b00
@@ -207,16 +197,6 @@ LOCAL_SRC_FILES := etc/firmware/mba.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := mba
 LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := nfc_test
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/nfc_test.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)

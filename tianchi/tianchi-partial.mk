@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -31,7 +30,6 @@ PRODUCT_PACKAGES += \
 	cyttsp4_fw \
 	mba_b00 \
 	mba_mdt \
-	nfc_test \
 	wcnss_b00 \
 	wcnss_b01 \
 	wcnss_b02 \

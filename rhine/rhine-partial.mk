@@ -13,17 +13,11 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	MTP_Bluetooth_cal \
-	MTP_General_cal \
-	MTP_Global_cal \
-	MTP_Handset_cal \
-	MTP_Hdmi_cal \
-	MTP_Headset_cal \
-	MTP_Speaker_cal \
-	Signedrompatch_v20 \
-	Signedrompatch_v21 \
-	Signedrompatch_v24 \
-	Signedrompatch_v30 \
+	Bluetooth_cal \
+	General_cal \
+	Global_cal \
+	Hdmi_cal \
+	Headset_cal \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -42,12 +36,8 @@ PRODUCT_PACKAGES += \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
-	cpp_firmware_v1_1_1 \
-	cpp_firmware_v1_1_6 \
-	cpp_firmware_v1_2_0 \
 	mba_b00 \
 	mba_mdt \
-	nfc_test \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
@@ -87,6 +77,7 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
+	hci_qcomm_init \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
@@ -95,11 +86,5 @@ PRODUCT_PACKAGES += \
 	libpn544_fw \
 	nfc.msm8974 \
 	sensors.msm8974 \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
-	libadiertac \
 	libadsprpc \
-	libaudcal \
-	libaudioalsa \
 	libbtnv
