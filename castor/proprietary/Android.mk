@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq (castor, $(TARGET_DEVICE))
+ifeq ($(filter-out castor castor_windy,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Handset_cal
 LOCAL_MODULE_OWNER := Sony Mobile
