@@ -64,10 +64,39 @@ PRODUCT_PACKAGES += \
 	venus_b03 \
 	venus_b04 \
 	venus_mdt \
+	irsc_util \
+	mlog_qmi_service \
 	mm-qcamera-daemon \
+	netmgrd \
+	pm-proxy \
+	pm-service \
+	qmuxd \
+	qseecomd \
+	rfs_access \
+	rmt_storage \
+	sct_service \
+	sensors_qcom \
+	ta_qmi_service \
+	tad_static \
+	touch_fusion \
+	irsc_util \
+	mlog_qmi_service \
+	mm-qcamera-daemon \
+	netmgrd \
+	pm-proxy \
+	pm-service \
+	qmuxd \
+	qseecomd \
+	rfs_access \
+	rmt_storage \
+	sct_service \
+	sensors_qcom \
+	ta_qmi_service \
+	tad_static \
+	touch_fusion \
 	libpn547_fw \
-	sensors_msm8994 \
-	sensors_oem \
+	sensors.msm8994 \
+	sensors.oem \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \
@@ -184,22 +213,36 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx300_snapshot \
 	libchromatix_imx300_snapshot_hdr \
 	libchromatix_imx300_video_hdr \
+	libconfigdb \
+	libdiag \
+	libdrmfs \
+	libdsi_netctrl \
+	libdsutils \
 	libflash_pmic \
+	libidl \
+	libmdmdetect \
+	libmm-qdcm \
 	libmmcamera2_c2d_module \
 	libmmcamera2_cpp_module \
+	libmmcamera2_frame_algorithm \
 	libmmcamera2_iface_modules \
 	libmmcamera2_imglib_modules \
+	libmmcamera2_is \
 	libmmcamera2_isp_modules \
 	libmmcamera2_pp_buf_mgr \
 	libmmcamera2_pproc_modules \
+	libmmcamera2_q3a_core \
 	libmmcamera2_sensor_debug \
 	libmmcamera2_sensor_modules \
+	libmmcamera2_stats_algorithm \
 	libmmcamera2_stats_modules \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
+	libmmcamera_cac2_lib \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
+	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
 	libmmcamera_imx132 \
 	libmmcamera_imx134 \
@@ -250,12 +293,30 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb46 \
 	libmmcamera_ppbase_module \
+	libmmcamera_tintless_algo \
+	libmmcamera_tintless_bg_pca_algo \
 	libmmcamera_tuning \
 	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
+	libnetmgr \
 	liboemcamera \
+	libperipheral_client \
+	libqcci_legacy \
+	libqdi \
+	libqdp \
+	libqmi \
+	libqmi_cci \
+	libqmi_client_qmux \
+	libqmi_common_so \
+	libqmi_csi \
+	libqmi_encdec \
+	libqmiservices \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
-	libqomx_jpegenc_pipe
+	libqomx_jpegenc_pipe \
+	libril-qc-qmi-1 \
+	librmnetctl \
+	libsmemlog \
+	libsystem_health_mon

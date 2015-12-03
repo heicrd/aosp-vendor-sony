@@ -1,0 +1,96 @@
+From 867e339b69cc571fd111e4433b60a8bf6c4fc340 Mon Sep 17 00:00:00 2001
+From: Adam Farden <adam@farden.cz>
+Date: Wed, 18 Nov 2015 20:59:25 +0100
+Subject: [PATCH] Revert "Alin's small typos"
+
+Yukon, Rhine, Shinano are all OK, only Kitakami and Kanuti have typos.
+---
+ kitakami/kitakami-partial.mk    | 11 ++++-------
+ kitakami/proprietary/Android.mk | 10 +++++-----
+ 2 files changed, 9 insertions(+), 12 deletions(-)
+
+diff --git a/kitakami/kitakami-partial.mk b/kitakami/kitakami-partial.mk
+index cdd6aef..ab11216 100644
+--- a/kitakami/kitakami-partial.mk
++++ b/kitakami/kitakami-partial.mk
+@@ -66,8 +66,8 @@ PRODUCT_PACKAGES += \
+ 	venus_mdt \
+ 	mm-qcamera-daemon \
+ 	libpn547_fw \
+-	sensors_msm8994_so \
+-	sensors_oem_so \
++	sensors_msm8994 \
++	sensors_oem \
+ 	libactuator_bu64291gwz \
+ 	libactuator_bu64291gwz_camcorder \
+ 	libactuator_bu64291gwz_camera \
+@@ -77,7 +77,7 @@ PRODUCT_PACKAGES += \
+ 	libactuator_dw9714 \
+ 	libactuator_dw9714_camcorder \
+ 	libactuator_dw9714_camera \
+-	libadsprpc_so \
++	libadsprpc \
+ 	libchromatix_imx132_common \
+ 	libchromatix_imx132_cpp_liveshot \
+ 	libchromatix_imx132_cpp_preview \
+@@ -258,7 +258,4 @@ PRODUCT_PACKAGES += \
+ 	liboemcamera \
+ 	libqomx_jpegdec \
+ 	libqomx_jpegenc \
+-	libqomx_jpegenc_pipe \
+-	sensors_msm8994_so \
+-	sensors_oem_so \
+-	libadsprpc_so
++	libqomx_jpegenc_pipe
+diff --git a/kitakami/proprietary/Android.mk b/kitakami/proprietary/Android.mk
+index 663c375..e710023 100644
+--- a/kitakami/proprietary/Android.mk
++++ b/kitakami/proprietary/Android.mk
+@@ -645,7 +645,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+ include $(BUILD_PREBUILT)
+ 
+ include $(CLEAR_VARS)
+-LOCAL_MODULE := sensors_msm8994_so
++LOCAL_MODULE := sensors_msm8994
+ LOCAL_MODULE_OWNER := Sony Mobile
+ LOCAL_SRC_FILES := vendor/lib/hw/sensors.msm8994.so
+ LOCAL_MODULE_TAGS := optional
+@@ -657,7 +657,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
+ include $(BUILD_PREBUILT)
+ 
+ include $(CLEAR_VARS)
+-LOCAL_MODULE := sensors_oem_so
++LOCAL_MODULE := sensors_oem
+ LOCAL_MODULE_OWNER := Sony Mobile
+ LOCAL_SRC_FILES := vendor/lib/hw/sensors.oem.so
+ LOCAL_MODULE_TAGS := optional
+@@ -768,7 +768,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+ include $(BUILD_PREBUILT)
+ 
+ include $(CLEAR_VARS)
+-LOCAL_MODULE := libadsprpc_so
++LOCAL_MODULE := libadsprpc
+ LOCAL_MODULE_OWNER := Sony Mobile
+ LOCAL_SRC_FILES := vendor/lib/libadsprpc.so
+ LOCAL_MODULE_TAGS := optional
+@@ -2771,7 +2771,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+ include $(BUILD_PREBUILT)
+ 
+ include $(CLEAR_VARS)
+-LOCAL_MODULE := sensors.msm8994
++LOCAL_MODULE := sensors_msm8994
+ LOCAL_MODULE_OWNER := Sony Mobile
+ LOCAL_SRC_FILES := vendor/lib64/hw/sensors.msm8994.so
+ LOCAL_MODULE_TAGS := optional
+@@ -2783,7 +2783,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
+ include $(BUILD_PREBUILT)
+ 
+ include $(CLEAR_VARS)
+-LOCAL_MODULE := sensors.oem
++LOCAL_MODULE := sensors_oem
+ LOCAL_MODULE_OWNER := Sony Mobile
+ LOCAL_SRC_FILES := vendor/lib64/hw/sensors.oem.so
+ LOCAL_MODULE_TAGS := optional
+-- 
+2.5.0
+
