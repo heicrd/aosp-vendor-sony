@@ -1,4 +1,6 @@
 PRODUCT_PLATFORM := shinano2
+CAMERA_IMX200 := true
+CAMERA_IMX132 := true
 $(call inherit-product, vendor/qcom/prebuilt/qcom-vendor.mk)
 $(call inherit-product, vendor/sony/shinano/firmware-partial.mk)
 $(call inherit-product, vendor/sony/shinano/shinano-partial.mk)
