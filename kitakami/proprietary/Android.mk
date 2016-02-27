@@ -22,7 +22,6 @@ LOCAL_SRC_FILES := etc/acdbdata/Bluetooth_cal.acdb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .acdb
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
@@ -33,7 +32,6 @@ LOCAL_SRC_FILES := etc/acdbdata/General_cal.acdb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .acdb
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
@@ -44,7 +42,6 @@ LOCAL_SRC_FILES := etc/acdbdata/Global_cal.acdb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .acdb
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
@@ -55,7 +52,6 @@ LOCAL_SRC_FILES := etc/acdbdata/Hdmi_cal.acdb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .acdb
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
@@ -66,7 +62,6 @@ LOCAL_SRC_FILES := etc/acdbdata/Headset_cal.acdb
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .acdb
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
@@ -583,7 +578,6 @@ LOCAL_SRC_FILES := vendor/firmware/libpn547_fw.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
 endif
