@@ -15,6 +15,4 @@
 PRODUCT_PACKAGES += \
 	touch_module_id_0xb0 \
 	touch_module_id_0xb1 \
-	touch_module_id_0xb2 \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	touch_module_id_0xb2
